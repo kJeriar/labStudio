@@ -1,0 +1,147 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* NAVBAR */
+.navbar-default{
+  background: transparent;
+  border: none;
+  background-color: transparent;
+ }
+
+.dropdown-menu{
+  background: #4B7BDA;
+}
+
+.dropdown-menu li a{
+ color: white;
+}
+
+/* HEADER */
+.first-section{
+	background-image: url(../img/header-bg.jpg);
+	height: auto;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	background-position: center;
+}
+
+#init{
+	padding: 5% 3%;
+}
+
+.imagen-inicio{
+	margin-top: 5%;
+}
+
+.btn-default{
+	width: 167px;
+	color: white;
+	border: none;
+	background-color: rgb(78, 3, 120);
+	margin-left: 24px;
+}
+
+h2{
+	padding: 15px;
+}
+
+.h2, h2 {
+    font-size: 50px;
+}
+
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 47px;
+    margin-bottom: 23px;
+}
+
+p {
+    margin: 0 0 30px;
+    font-size: 18px;
+    text-align: justify;
+    padding: 25px;
+}
+
+.box{
+	background-color: rgba(74, 122, 218,0.4);
+	padding-bottom: 15px;
+}
+
+/* CARROUSEL */
+.container-fluid{
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+.carousel-inner img{
+  width: 100%;
+  height: auto;
+}
+/* PRODUCTOS */
+.detalle {
+ width: 350px;
+ height: 300px;
+ }
+
+#productos .img-responsive{
+	height: 40vh;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.text{
+	text-align: center;
+}
+
+/*FORMULARIO DE CONTACTO*/
+.form-control{
+  width: 50%;
+  border: 3px solid rgb(75, 123, 218);
+}
+
+p{
+  font-weight: bold;
+}
+
+#menu {
+    margin: 15px;
+    height: 54px;
+    width: 25%;
+    margin-left: 1px;
+    background-color: rgba(255, 255, 69, 0.5);
+}
+
+#question{
+  margin-top: 20px;
+}
+
+/* FOOTER */
+footer{
+	background: -webkit-linear-gradient(white, #86aeff);
+}
+
+li{
+	color: #07399B;
+	text-decoration: none;
+	list-style: none;
+}
+
+#mouse{
+	text-decoration: none;
+	cursor: pointer;
+}
+
+li a:hover{
+	color:#4E0378;
+}
+
+h4:hover{
+	padding:10px;
+	color: #E8E800;
+}
+
+.c{
+  text-align: center;
+	color: #052C78;
+}
