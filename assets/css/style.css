@@ -39,7 +39,7 @@
 	width: 167px;
 	color: white;
 	border: none;
-	background-color: rgb(78, 3, 120);
+	background-color: #fed136;
 	margin-left: 24px;
 }
 
@@ -62,22 +62,11 @@ p {
     text-align: justify;
     padding: 25px;
 }
+.third-section{
+background-color: #eeeeee;
 
-.box{
-	background-color: rgba(74, 122, 218,0.4);
-	padding-bottom: 15px;
 }
 
-/* CARROUSEL */
-.container-fluid{
-  width: 100%;
-  padding-left: 0;
-  padding-right: 0;
-}
-.carousel-inner img{
-  width: 100%;
-  height: auto;
-}
 /* PRODUCTOS */
 .detalle {
  width: 350px;
@@ -96,6 +85,7 @@ p {
 
 /*FORMULARIO DE CONTACTO*/
 .form-control{
+
   width: 50%;
   border: 3px solid rgb(75, 123, 218);
 }
@@ -104,25 +94,50 @@ p{
   font-weight: bold;
 }
 
+.four-section{
+background-color: white;
+	
+}
+
+.fourth-section{
+	background-image: url(../img/header-bg.jpg);
+	color: white;
+	margin-top: 20px;
+
+}
+
 #menu {
     margin: 15px;
     height: 54px;
     width: 25%;
     margin-left: 1px;
-    background-color: rgba(255, 255, 69, 0.5);
 }
+
+
 
 #question{
   margin-top: 20px;
 }
 
+.five-section{
+background-color: #eeeeee;
+
+}
+
+.marcas{
+background-color: white;
+margin-top: 10px;
+	
+}
+
+
 /* FOOTER */
 footer{
-	background: -webkit-linear-gradient(white, #86aeff);
+	background: -webkit-linear-gradient(white);
 }
 
 li{
-	color: #07399B;
+	color:  #eeeeee;
 	text-decoration: none;
 	list-style: none;
 }
@@ -130,15 +145,6 @@ li{
 #mouse{
 	text-decoration: none;
 	cursor: pointer;
-}
-
-li a:hover{
-	color:#4E0378;
-}
-
-h4:hover{
-	padding:10px;
-	color: #E8E800;
 }
 
 .c{
